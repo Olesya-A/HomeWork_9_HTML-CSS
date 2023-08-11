@@ -506,4 +506,56 @@ a{
         margin-bottom: 99px;
     }
 
+    .footer-top{
+        height: 610px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 48px;
+    }
+    
+    .benefit{
+        width: 348px;
+    }
+
+    .footer-middle{
+        height: 610px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 59px;
+    }
+
+    .feedback-left{
+        width: 343px;
+    }
+
+    .feedback-right{
+        width: 271px;
+    }
+
+    .fb-link-left{
+        width: 235px;
+        height: 47px;
+    }
+    
+    .fb-link-right{
+        width: 85px;
+        height: 47px;
+    }
+
+    .feedback-subtitle{
+        font-size: 14px;
+        line-height: 153.2%;
+    }
+
+    .footer-bottom{
+        height: 143px;
+        background-color: #222224;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        gap: 40px;
+        padding-bottom: 8px;
+    }
+
+
 }
