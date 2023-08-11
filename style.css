@@ -35,6 +35,66 @@ a{
     align-items: center;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background: #FFFFFF;
+    padding-left: 33px;
+    width: 232px;
+    padding: 32px;
+    z-index: 1;
+    box-shadow: 6px 4px 35px rgba(0, 0, 0, 0.21);
+    box-sizing: border-box;
+    right: -200px;
+  }
+
+.drop-heading{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.drop-menu-item{
+margin-top: 20px;
+}
+
+.drop-menu-title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F16D7F;
+}
+
+.drop-menu-list{
+    list-style-type: none;
+    padding-left: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    margin-top: 12px;
+}
+
+.drop-menu-link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6F6E6E;
+}
+
 .top{
     margin-bottom: 65px;
 }
@@ -375,6 +435,10 @@ a{
         padding-right: 32px;
     }
 
+    .dropdown-menu{
+    right:-150px;
+    }
+
     .top-content{
         max-height: 368px;
         justify-content: center;
@@ -449,6 +513,10 @@ a{
     .top-menu-img{
         display: none;
     }
+
+    .dropdown-menu{
+        right: 0px;
+        }
 
     .top-pic{
         display: none;
