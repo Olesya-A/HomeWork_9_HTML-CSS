@@ -405,14 +405,20 @@ a{
 
     .footer-top{
         height: 610px;
-        padding-top: 48px;
-        padding-bottom: 64px;
         flex-direction: column;
+        justify-content: center;
         gap: 48px;
     }
     
     .benefit{
         width: 360px;
+    }
+
+    .footer-middle{
+        height: 614px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 48px;
     }
 }
 
