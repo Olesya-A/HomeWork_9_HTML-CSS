@@ -17,6 +17,10 @@ a{
     padding-right: calc(50% - 570px);
 }
 
+.container{
+    width: 1600px;
+}
+
 .top-logo{
     margin-right: 41px;
 }
@@ -102,7 +106,8 @@ margin-top: 20px;
 .top-content{
     background-color: #F1E4E6;
     display: flex;
-    max-height: 764px;
+    justify-content: center;
+    height: 764px;
 }
 
 .top-brand{
@@ -405,7 +410,7 @@ margin-top: 20px;
 
 .icon-box{
     background-color: #FFF;
-    width: 31,5px;
+    width: 32px;
     height: 32px;
     display: flex;
     justify-content: center;
